@@ -12,10 +12,11 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var navigarionBar = UINavigationBar.appearance()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        navigarionBar.barTintColor = UIColor(red: 0.5, green: 0.5, blue: 0.5, alpha: 1.0)
         return true
     }
 
